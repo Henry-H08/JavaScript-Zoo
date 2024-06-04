@@ -11,8 +11,8 @@ function tossCoinFunction() {
     const randomVal = Math.random();
     const faceCoin = randomVal < 0.5 ? 'heads' : 'tails';
     const imageUrl = faceCoin === 'heads' ?
-''
-''
+'heads.jpeg':
+'tails.jpeg';
 
     Icon.classList.add('flip');
     setTimeout(() => {
