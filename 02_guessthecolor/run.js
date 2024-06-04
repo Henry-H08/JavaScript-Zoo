@@ -27,8 +27,7 @@ document.getElementById("displayColor").textContent = displayColor;
 
 
 function guessColor() {
-    let inputElement =
-    document.getElementById("color-input")
+    let inputElement = document.getElementById("color-input")
 
 
     if (!inputElement.value) {
@@ -41,7 +40,7 @@ function guessColor() {
     inputElement.value = "";
 
     if (guessedlist.includes(color)) {
-        alert("You have already guessed that color.")
+        alert("You have already guessed that color.");
         return;
     }
 
