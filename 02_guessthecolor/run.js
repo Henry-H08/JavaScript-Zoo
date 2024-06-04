@@ -47,5 +47,21 @@ function guessColor() {
 
     guessedlist.push(color);
 
-    
+    let updatedDisplay = ""; 
+    let allColorsGuessed = true; 
+    for (let i = 0; i < selectedColor.length; i++) { 
+        if (guessedlist.includes(selectedColor[i])) { 
+            updatedDisplay += selectedColor[i] + " "; 
+        } else { 
+            updatedDisplay += "_ "; 
+            allColorsGuessed = false; 
+        } 
+    } 
+    document.getElementById("displayColor") 
+        .textContent = updatedDisplay; 
+  
+   
+    if (allColorsGuessed) { 
+        alert("Congratulations! You guessed the color correctly!"); 
+    } 
 }
