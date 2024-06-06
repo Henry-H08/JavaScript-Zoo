@@ -15,7 +15,7 @@ function go() {
 
     let n = str.length;
     let wordLen = inputWord.length;
-    srtWord = Word.split("").sort().join("");
+    srtWord = word.split("").sort().join("");
  
     for (let i = 0; i < n - wordLen + 1; ++i) { 
         let sub = str 
