@@ -1,6 +1,6 @@
 # Flipping a coin
 
-This page uses the JavaScript ''random'' and ''randomVal'' elements to pick between two sides of a coin. The output is then used to set a variable to the appropriate side and change the image accordingly. 
+This page uses the JavaScript ``random`` and ``randomVal`` elements to pick between two sides of a coin. The output is then used to set a variable to the appropriate side and change the image accordingly. 
 
 # Style
 
