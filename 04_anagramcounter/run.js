@@ -8,13 +8,13 @@ function go() {
     let res = [];
     str = inputString.value;
     word = inputWord.value; 
-    if (str === "" || inputWord === "") { 
+    if (str === "" || word === "") { 
         window.alert("Incorrect input!"); 
         return; 
     }
 
     let n = str.length;
-    let wordLen = inputWord.length;
+    let wordLen = word.length;
     srtWord = word.split("").sort().join("");
  
     for (let i = 0; i < n - wordLen + 1; ++i) { 
