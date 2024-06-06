@@ -1,6 +1,7 @@
 inputString.value = "";
 inputWord.value = "";
 nums.innerText ="";
+explain.innerText = ""; 
 
 function go() {
     let count =0;
