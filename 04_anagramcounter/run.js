@@ -13,8 +13,8 @@ function go() {
     }
 
     let n = str.length;
-    let wordLen = word.length;
-    srtWord = word.split("").sort().join("");
+    let wordLen = inputWord.length;
+    srtWord = inputWord.split("").sort().join("");
  
     for (let i = 0; i < n - wordLen + 1; ++i) { 
         let sub = str 
@@ -34,5 +34,5 @@ function go() {
     nums.innerText =
         "Input string contains " + count + " Anagrams.";
     explain.innerText =
-        "Anagrams of the word '" + word + "' are: " + explainres;
+        "Anagrams of the word '" + inputWord + "' are: " + explainres;
 }
