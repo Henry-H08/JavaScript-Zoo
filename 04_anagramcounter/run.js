@@ -6,8 +6,8 @@ explain.innerText = "";
 function go() {
     let count =0;
     let res = [];
-    let word = inputWord;
     str = inputString.value;
+    word = inputWord.value; 
     if (str === "" || inputWord === "") { 
         window.alert("Incorrect input!"); 
         return; 
