@@ -35,5 +35,5 @@ function go() {
     nums.innerText =
         "Input string contains " + count + " Anagrams.";
     explain.innerText =
-        "Anagrams of the word '" + inputWord + "' are: " + explainres;
+        "Anagrams of the word '" + word + "' are: " + explainres;
 }
