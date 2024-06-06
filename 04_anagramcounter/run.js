@@ -7,7 +7,7 @@ function go() {
     let count =0;
     let res = [];
     str = inputString.value;
-    if (str === "" || word === "") { 
+    if (str === "" || inputWord === "") { 
         window.alert("Incorrect input!"); 
         return; 
     }
